@@ -21,8 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "Ring_Buffer.h"
-#include "ESP01.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,7 +92,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  ESP_Init("infinergy", "okeokeoke");
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -103,7 +102,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  Server_Start();
   }
   /* USER CODE END 3 */
 }
