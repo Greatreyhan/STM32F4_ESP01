@@ -1237,3 +1237,18 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/greatreyhan/Docume
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-01-03 09:58:33.238
 !MESSAGE Indexed 'STM32_ESP' (22 sources, 119 headers) in 4.4 sec: 11,536 declarations; 43,098 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.44%)
+!SESSION 2024-01-03 10:27:37.515 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-01-03 10:27:43.252
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-01-03 10:27:43.252
+!MESSAGE Log4j2 initialized with config file /home/greatreyhan/Documents/TA/STM32_ESP01/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-03 10:27:47.878
+!MESSAGE Started RMI Server, listening on port 41337
