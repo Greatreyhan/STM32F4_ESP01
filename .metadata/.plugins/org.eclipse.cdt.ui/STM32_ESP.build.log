@@ -1,0 +1,10 @@
+10:02:36 **** Incremental Build of configuration Debug for project STM32_ESP ****
+make -j4 all 
+arm-none-eabi-size  STM32_ESP.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11348	     20	   1756	  13124	   3344	STM32_ESP.elf
+Finished building: default.size.stdout
+ 
+
+10:02:36 Build Finished. 0 errors, 0 warnings. (took 244ms)
+

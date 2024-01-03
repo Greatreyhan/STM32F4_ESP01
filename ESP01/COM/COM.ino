@@ -4,8 +4,14 @@ void setup() {
 }
 
 void loop() {
-  Serial.readBytes(str, 17);
-  Serial.println(str);
-  Serial.println(" Receiver");
+  // // Receiver
+  // if(Serial.available() > 0){
+  // Serial.readBytes(str, 17);
+  // Serial.println(str);
+  // Serial.println(" Receiver");
+  // }
+
+  // Sender
+  Serial.write("Hello too!");
   delay(1000);
 }
